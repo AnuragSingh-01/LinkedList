@@ -25,9 +25,10 @@ class Intersect
             count++;
         }
         return count;
-    }
-	int intersectPoint(Node headA, Node headB)
-	{
+    } 
+    
+    int intersectPoint(Node headA, Node headB) 
+    {
          // code here
          int s1=length(headA);
          int s2=length(headB);
@@ -59,4 +60,5 @@ class Intersect
              headB=headB.next;
          }
          return -1;
-	}
+     }
+}	
