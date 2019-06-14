@@ -14,7 +14,7 @@
 
 
 
-class Intersect
+class IntersectionPoint
 {
     public static int length(Node start)
     {
